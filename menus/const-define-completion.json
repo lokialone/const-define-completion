@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle const-define-completion",
+        "command": "const-define-completion:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "const-define-completion",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "const-define-completion:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
